@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pedro Govertz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+
+	body {
+		width: 100%;
+		height: 1200px;
+		background-image: url(background.png) ;
+	}
+	#div_logo{
+		height: 80px;
+	}
+	.logoblack{
+		height:80px ;
+	}
+	.logoblack:hover{
+		height: 90px;
+	}
+	#layout{
+		color: black;
+		margin: auto;
+		margin-top: 20px;
+		padding: 10px;
+		position: relative;
+	}
+	header{
+		background-color: #d9d9d9;
+		height: 300px;
+		font-size: 30pt;
+		text-align: left;
+	}
+	.name{
+		background-color: black;
+		color: white;
+		width: 400px;
+		margin-top: 30px;
+		float: left;
+	}
+	#info{
+		position: absolute;
+		margin-top: -60px;
+		margin-left: 500px;
+		margin-right: 400px;
+		font-size: 20pt;
+	}
+	#seta{
+		position: relative;
+		margin-top: 20px;
+		margin-right: 10px;
+		float: right;
+	}
+	#seta:hover{
+		width: 50px;
+	}
+	section{
+		color: white;
+		height: 800px;
+		margin-top: 5px;
+	}
+	aside{
+		color: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		height: 250px;
+	}
+	#pf{
+		float: left;
+	}
+	#info2{
+		margin-right: 38%;
+		margin-bottom: 20px;
+		width: 420px;
+		float: right;
+	}
+	h2{
+		text-align: center;
+		color: black;
+		background-color: white;
+		width: 150px;
+
+	}
+</style>
+</head>
+
+ <body >
+		<header>
+			<div id="div_logo"><a href="1BackupHome.html"> <img src="logoblack.png" class="logoblack"> </a></div><br/> <p class="name">PEDRO GOVERTZ</p>
+			<center><p id="info"> Tenho 18 anos, moro em São Paulo, na cidade de Guarulhos, edito vídeos para a internet já faz 01 ano, desde o começo sempre priorizo os desejos do cliente, neste longo ano já criei
+			vídeos para plataformas como: YouTube, Instagram e Facebook. Meu portifólio vai tanto de vídeos longos como Lives como vídeos curtos (Nutella) para o Insta. Nesta página verá os meus melhores projetos,
+			espero que gostem da experiência, e caso se divirtam, estou disponível para novos projetos.</p></center>
+			<a href="3guiPage.html"><img id="seta" src="Seta.png" width="40"></a>
+		</header>
+<br/>
+<br/>
+	<h2 id="pf">portifólio</h2>
+	<h2 id="info2">Selecione abaixo um de meus trabalhos</h2>
+<br/>
+<br/>
+		<section class="layout">
+			<video id="slider" poster="background2.png" controls autoplay="videoUrl">
+			 </video>
+			 <ul class="navigation">
+				 <li onclick="videoUrl('vid1.mp4')"><img src="thumb_vid1.png"></li>
+				 <li onclick="videoUrl('vid2.mp4')"><img src="thumb_vid2.png"></li>
+				 <li onclick="videoUrl('vid3.mp4')"><img src="thumb_vid3.png"></li>
+				 <li onclick="videoUrl('vid4.mp4')"><img src="thumb_vid4.png"></li>
+				 </ul>
+				 <script type="text/JavaScript">
+					function videoUrl(hmmmmmm){
+						document.getElementById("slider").src =hmmmmmm;
+					}
+			</script>
+		</section>
+<br/>
+<br/>
+	 <hr/>	<aside class="layout">
+<br/>
+	 		<h2>Contatos</h2>
+<br/>
+	 		<img src="whatsapp.png" class="contato" height="35">
+	 		<font style="opacity: 80%;">: (11) 94173-2180</font>
+<br/>
+<br/>
+	 		<a href="https://www.instagram.com/govertzvfx/"><img src="instagram.png" class="contato" height="35"></a>
+	 		<font style="opacity: 80%;"> / govertzvfx</font>
+<br/>
+<br/>
+	 		<a href=" https://twitter.com/pgouvertz"><img src="twitter.png" class="contato" height="35"></a>
+	 		<font style="opacity: 80%;">: @pgouvertz</font>
+	 	</aside>
+ </body>
+</html>

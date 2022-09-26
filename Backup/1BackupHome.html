@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Backup </title>
+	<script type="text/javascript">
+
+	</script>
+	<style type="text/css">
+		
+		body{
+			background-image: url(background.png);
+			background-position: fixed;
+		}
+		#principal{
+			width: 100%;
+			height: 1200px;
+		}
+		#title{
+			color: black;
+			background-color: #BDBDBD;
+			opacity: 100%;
+			margin-top: 100px;
+			width: 100%;
+			height: 100%;
+			font-size: 25pt;
+			font-family: ;
+		}
+		#text{
+			color: black;
+			background-color: #BDBDBD;
+			opacity: 100%;
+			font-size: 14pt;
+			width: 100%;
+			height: 160px;
+			font-family: ;
+		}
+		.nomes{
+			font-family: ;
+			font-size: 25px;
+		}
+		#pepo{
+			margin-top: 140px;
+			margin-left: 170px;
+			opacity: 60%;
+			float: left;
+		}
+		#pepo:hover{
+			opacity: 100%;
+			width: 510px;
+			height: 510px;
+		}
+		#gui{
+			margin-top: 140px;
+			margin-right: 170px;
+			margin-left: 400px;
+			opacity: 60%;
+			float: right;
+		}
+		#gui:hover{
+			opacity: 100%;
+			width: 510px;
+			height: 510px;
+		}
+		#logo{
+			margin-top: 140px;
+			margin-right: 400px;
+			margin-left: 400px;
+			opacity: 94%;
+			float: left;
+		}
+		header{
+			width: 100%;
+			height: 500px;
+			opacity: 100%;
+		}
+		section{
+			width: 100%;
+			height: 700px;
+		}
+		footer{
+			position: relative;
+			width: 100%;
+			height: 200px;
+		}
+		h2{
+			margin-top: 10px;
+			position: relative;
+			background-color: white;
+			text-align: center;
+			width: 450px;
+			color: black;
+			margin-left: 10px;
+		}
+		#fname{
+			position: relative;
+			width: 30%;
+			height: 18px;
+			margin-left: 10px;
+		}
+		#fb{
+			position: relative;
+			width: 30%;
+			height: 60px;
+			margin-left: 10px;
+		}
+		#submit{
+			position: relative;
+			color: white;
+			background-color: black;
+			font-size: 17px;
+			margin-left: 508px;
+		}
+		#submit:hover{
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Principal do site -->
+	<div id="principal">
+		<Header> 
+			<center>
+			<img src="somente a logo.png" height="200">
+			<img src="backup escrita.png" height="200">
+			<div id="title"><b>O que é a Backup?</b> </div>
+    		<div id="text"> Um Coletivo de artitas freelancers com o intuíto de Gerar clientes fiéis, crescer na área e divulgar nossos trabalhos.<br/> Composta por: <br/><br/> <font class="nomes"><strong>Pedro Govertz</strong>(Editor Audiovisual) <br/> <b>Guilherme, Fresh</b>(Designer gráfico)</font></div>
+			</center>
+		</Header>
+
+		<!-- Conteudo do site-->
+		<section style="color:white;"> 
+			<div id="pepotext"><a href="2PedroPage.html"><img src="Govertz.gif" height="500" width="500" id="pepo"></a></div>
+			<div><a href="3guiPage.html"><img src="fresh.jpg" height="500" width="500" id="gui"> </a></div>
+		</section>
+	</div>
+<br/>
+<hr/>
+<br/>
+
+	<!-- rodapé -->
+	<footer style="color:white">
+		<h2> <b>Nos dê um Feedback de nosso trabalho</b></h2>
+	<form name="feedback" method="post" action="save.jsp">
+		<input required maxlength="50" type="text" id="fname" name="firstname" maxlength="70" placeholder="Digite seu nome..." >
+<br/>
+<br/>
+		<textarea required maxlength="200" id="fb" name="subject" placeholder="Digite seu Feedback..."></textarea>	
+<br/>
+		<input id="submit" type="submit" value="Enviar" style="cursor: pointer;">
+	</form>
+	</footer>
+
+
+</body>
+</html>
